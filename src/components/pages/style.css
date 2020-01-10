@@ -1,0 +1,90 @@
+
+.tabs{
+  padding-top: 1rem;
+
+}
+.tab-nav-container{
+   list-style-type: none;
+   display:grid;
+   justify-content: center;
+   align-content: center;
+   text-align: center;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 1rem;
+   
+}
+
+/* Tab nav Hover effect */
+
+ul li:hover {
+color:rgb(245, 222, 18);
+cursor: pointer;
+}
+ul li:hover path {
+fill:rgb(245, 222, 18);
+}
+/* Active Tab */
+.active{
+  border-bottom: 4px solid rgb(226, 69, 134);
+}
+.tab-selected{
+  
+color:rgb(245, 222, 18);
+}
+.tab-selected path{
+  fill:rgb(245, 222, 18);
+}
+
+.link {
+  color: #FFF;
+}
+.link:hover path{
+   color: rgb(228, 225, 53)
+}
+.btn-primary{
+  background-color:white;
+  border-radius: 10px;
+}
+
+/* upcomings */
+.services {
+  padding: 5rem 0;
+}
+.services {
+  background: var(--darkGrey);
+  text-align: center;
+}
+.services-center {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 50px;
+}
+.service span {
+  display: inline-block;
+  color: var(--primaryColor);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.services h6 {
+  letter-spacing: var(--mainSpacing);
+}
+.services p {
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 992px) {
+  .services-center {
+    width: 95vw;
+    max-width: 1170px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .services p {
+    width: 100%;
+  }
+}
+/*end of services */
