@@ -11,6 +11,7 @@ import Navbar from "./components/layout/Navbar";
 import Home from "./components/pages/Home";
 import StudentBoard from "./components/pages/StudentBoard";
 import Details from "./components/pages/Tabs/Details";
+import Contact from "./components/pages/Contact";
 /*cart*/
 import Cart from "./components/Cart/Cart";
 
@@ -47,6 +48,7 @@ function App() {
             component={ForgotPassword}
           />
           <Route path="/details" exact={true} component={Details} />
+          <Route path="/contact" exact={true} component={Contact} />
           <SecureRoute path="/cart" exact={true} component={Cart} />
         </div>
       </div>

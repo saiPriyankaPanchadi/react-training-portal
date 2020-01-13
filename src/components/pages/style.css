@@ -88,3 +88,35 @@ color:rgb(245, 222, 18);
   }
 }
 /*end of services */
+
+
+
+/*ContactPage*/
+.contact-body{
+ margin:auto;
+  position: fixed;
+ display: inline-flexbox;
+  justify-content: center;
+  padding-top: 2em;
+  width: 80%;
+  height:60%;
+  
+}
+.contact-grid{
+text-align: center;
+justify-content: center;
+height:550px;
+width: 80%;
+background: white;
+display: inline-flexbox;
+color: rgb(46, 22, 155);
+display: block;
+margin-right: 4rem;
+background-image: url(https://backgrounddownload.com/wp-content/uploads/2018/09/contact-page-background-1.jpg);
+}
+.contact-grid h2 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-grid hr{
+  border-top: 5px dotted deeppink;
+}
